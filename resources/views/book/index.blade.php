@@ -44,6 +44,7 @@
                     </tbody>
                 @endforeach
             </table>
+             <div class="card-footer">{{ $books->links() }}</div>
         </div>
     </div>
 @endsection
